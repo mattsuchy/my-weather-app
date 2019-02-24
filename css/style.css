@@ -1,0 +1,78 @@
+body {
+    font-family: Helvetica, Arial, "sans-serif"
+}
+.mainContainer {
+    background-image: url("../images/london1900x600.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+	color: #fff;
+    text-shadow: 1px 1px 1px #666;
+	font-weight: bold;
+}
+h1 span{
+	font-weight: normal;
+	    font-size: 2rem;
+}
+
+.infoContainer{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d7d7d7+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,255,255,0.75) 0%, rgba(215,215,215,0.75) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.75) 0%,rgba(215,215,215,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(255,255,255,0.75) 0%,rgba(215,215,215,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 6px 4px 25px 0px #333;
+	border: 1px solid #fff;
+	min-height: 220px;
+	margin-bottom: 15px;
+}
+.temperature, .sunRiseSet {
+    text-align: center;
+}
+.wind{
+	display: flex;
+	flex-flow: wrap;
+}
+.windLeft, .windRight{
+	text-align: center;
+}
+.windRight{
+	border-left:1px solid #fff;
+}
+.infoContainer h1 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px #666;
+	font-weight: bold;
+	    text-align: center;
+}
+.infoContainer h1 span{
+	font-weight: normal;
+}
+.infoContainer h2 {
+    text-shadow: 1px 1px 1px #666;
+	font-weight: bold;
+}
+.infoContainer h3 {
+    text-shadow: 1px 1px 1px #666;
+}
+.infoContainer p{
+	font-size: 1.333rem;
+	text-shadow: 1px 1px 1px #666;
+}
+#map {
+    height: 300px;
+	
+  }
+.mapContainer{
+	margin-top: 15px;
+}
+
